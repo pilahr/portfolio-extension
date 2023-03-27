@@ -67,3 +67,120 @@
   font-size: 12px;
   text-align: center;
 }
+
+.project__text {
+  font-family: "Ubuntu", "sans-serif";
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 30px;
+}
+.project__cards {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project__cards .card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+}
+.project__cards .card__img-container {
+  background-color: #aeb6bf;
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+.project__cards .card__img-container--blue-bg {
+  background-color: #d6eaf8;
+}
+.project__cards .card__img-container:hover {
+  background-color: #e3f6f5;
+}
+.project__cards .card__img {
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+}
+.project__cards .card h3 {
+  font-family: "Roboto", "sans-serif";
+  font-size: 14px;
+  color: white;
+  margin-top: 15px;
+}
+.project__cards .card h4 {
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 20px;
+}
+.project__cards .card p {
+  font-family: "Roboto", "sans-serif";
+  font-size: 14px;
+}
+.project__cards .card__button {
+  font-family: "Roboto", "sans-serif";
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.project__cards .card__button button {
+  background-color: #e3f6f5;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 88px;
+  margin-right: 10px;
+  border: 1px solid #272643;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 1px 1px 2px;
+  color: #272643;
+}
+.project__cards .card__button button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #e3f6f5;
+  font-family: "Roboto", "sans-serif";
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100 vw;
+  height: 150px;
+}
+.footer__link-icon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #e3f6f5;
+}
+.footer a {
+  border: 3px solid #272643;
+  border-radius: 50%;
+}
+.footer img {
+  align-self: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #e3f6f5;
+}
+.footer img:hover {
+  background-color: #e3f6f5;
+}
+.footer p {
+  background-color: #e3f6f5;
+  color: #272643;
+  margin-top: 20px;
+}
