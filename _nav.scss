@@ -11,13 +11,20 @@
       font-size: 16px;
     }
 
+    &__heading2 {
+      font-family: $secondary-font;
+      font-size: 16px;
+      display: none;
+    }
+
     &__image {
       width: 50%;
     }
 
     &__list {
-      display: flex;
-      align-items: center;
+      // display: flex;
+      // justify-content: flex-end;
+      // align-items: center;
       font-family: $secondary-font;
       display: none;
 

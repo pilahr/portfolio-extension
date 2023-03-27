@@ -11,3 +11,83 @@
   background-color: $primary-color;
   color: $secondary-color;
 }
+
+@media screen and (min-width: 768px) {
+  .top-nav {
+    .navbar {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      &__list {
+        display: unset;
+      }
+
+      &__heading {
+        display: none;
+      }
+
+      &__heading2 {
+        display: unset;
+      }
+
+      &__image {
+        display: none;
+      }
+    }
+  }
+
+  .intro {
+    .intro-container {
+      &__heading {
+        text-align: center;
+      }
+    }
+  }
+
+  .skills {
+    &__icon-with-text {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .projects {
+    &__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  .about-me {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-areas:
+      "myimage heading heading heading"
+      "myimage text text text"
+      "myimage text text text";
+
+    h2 {
+      grid-area: heading;
+      text-align: left;
+      margin-left: 45px;
+      margin-bottom: 10px;
+    }
+
+    img {
+      grid-area: myimage;
+      align-self: center;
+    }
+
+    &__text {
+      grid-area: text;
+    }
+  }
+
+  .ft-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

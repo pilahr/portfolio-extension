@@ -18,6 +18,12 @@
   margin-top: 20px;
   background-color: inherit;
 }
+.intro .intro-container__link {
+  display: flex;
+  justify-content: center;
+  background-color: #aeb6bf;
+  text-decoration: none;
+}
 .intro .intro-container__link button {
   padding: 10px;
   border-radius: 5px;
@@ -68,28 +74,28 @@
   text-align: center;
 }
 
-.project__text {
+.projects__text {
   font-family: "Ubuntu", "sans-serif";
   text-align: center;
   font-size: 18px;
   padding: 10px;
   margin-top: 30px;
 }
-.project__cards {
+.projects__cards {
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.project__cards .card {
+.projects__cards .card {
   padding: 10px;
   display: flex;
   flex-direction: column;
   width: 90%;
   height: auto;
 }
-.project__cards .card__img-container {
+.projects__cards .card__img-container {
   background-color: #aeb6bf;
   position: relative;
   height: auto;
@@ -100,37 +106,37 @@
   align-items: center;
   margin-top: 20px;
 }
-.project__cards .card__img-container--blue-bg {
+.projects__cards .card__img-container--blue-bg {
   background-color: #d6eaf8;
 }
-.project__cards .card__img-container:hover {
+.projects__cards .card__img-container:hover {
   background-color: #e3f6f5;
 }
-.project__cards .card__img {
+.projects__cards .card__img {
   width: 80%;
   height: auto;
   margin-top: 30px;
 }
-.project__cards .card h3 {
+.projects__cards .card h3 {
   font-family: "Roboto", "sans-serif";
   font-size: 14px;
   color: white;
   margin-top: 15px;
 }
-.project__cards .card h4 {
+.projects__cards .card h4 {
   font-family: "Ubuntu", "sans-serif";
   font-size: 20px;
 }
-.project__cards .card p {
+.projects__cards .card p {
   font-family: "Roboto", "sans-serif";
-  font-size: 14px;
+  font-size: 12px;
 }
-.project__cards .card__button {
+.projects__cards .card__button {
   font-family: "Roboto", "sans-serif";
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.project__cards .card__button button {
+.projects__cards .card__button button {
   background-color: #e3f6f5;
   font-size: 14px;
   font-weight: bold;
@@ -143,7 +149,7 @@
   box-shadow: 1px 1px 2px;
   color: #272643;
 }
-.project__cards .card__button button:hover {
+.projects__cards .card__button button:hover {
   background-color: white;
   cursor: pointer;
 }
@@ -183,4 +189,36 @@
   background-color: #e3f6f5;
   color: #272643;
   margin-top: 20px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-me h2 {
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.about-me img {
+  width: 200px;
+  height: auto;
+  border: 2px solid #e3f6f5;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 5px;
+}
+.about-me__text {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.about-me__text p {
+  font-family: "Roboto", "sans-serif";
+  font-size: 12px;
+  margin-bottom: 10px;
 }

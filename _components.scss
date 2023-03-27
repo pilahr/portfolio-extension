@@ -22,6 +22,10 @@
       background-color: inherit;
     }
     &__link {
+      display: flex;
+      justify-content: center;
+      background-color: $extra-color;
+      text-decoration: none;
       button {
         padding: 10px;
         border-radius: 5px;
@@ -80,7 +84,7 @@
   }
 }
 
-.project {
+.projects {
   &__text {
     font-family: $primary-font;
     text-align: center;
@@ -143,7 +147,7 @@
 
       p {
         font-family: $secondary-font;
-        font-size: 14px;
+        font-size: 12px;
       }
 
       &__button {
@@ -213,5 +217,41 @@
     background-color: $secondary-color;
     color: $primary-color;
     margin-top: 20px;
+  }
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    font-family: $primary-font;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+    border: 2px solid $secondary-color;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 5px;
+  }
+
+  &__text {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+    p {
+      font-family: $secondary-font;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
   }
 }
