@@ -49,6 +49,10 @@
         width: 100px;
         padding: 5px;
       }
+
+      &--button:hover {
+        background-color: $hilighted-color;
+      }
     }
   }
 }

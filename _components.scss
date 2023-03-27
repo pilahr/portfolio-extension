@@ -30,9 +30,20 @@
         padding: 10px;
         border-radius: 5px;
         border: 2px solid $secondary-color;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 100px;
+        margin-bottom: 70px;
       }
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+      border: 2px solid $secondary-color;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+      box-shadow: 1px 1px 5px;
+      display: none;
     }
   }
 }
@@ -224,6 +235,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
   h2 {
     font-family: $primary-font;
