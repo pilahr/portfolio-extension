@@ -66,14 +66,14 @@
       "myimage text text text"
       "myimage text text text";
 
-    h2 {
+    &__heading {
       grid-area: heading;
       text-align: left;
-      margin-left: 45px;
       margin-bottom: 10px;
+      margin-left: 40px;
     }
 
-    img {
+    &__my-image {
       grid-area: myimage;
       align-self: center;
     }
@@ -122,6 +122,36 @@
         display: unset;
         margin: 0;
       }
+    }
+  }
+
+  .about-me {
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-areas:
+      "heading heading"
+      "text image";
+
+    &__heading {
+      grid-area: heading;
+      margin-left: 0;
+    }
+
+    &__my-image {
+      grid-area: image;
+    }
+
+    &__text {
+      grid-area: text;
+      margin: 0;
+      width: 80%;
+    }
+    &__my-image {
+      display: none;
+    }
+
+    &__laptop-girl {
+      display: unset;
     }
   }
 }

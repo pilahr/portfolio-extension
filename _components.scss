@@ -238,7 +238,7 @@
   margin-top: 50px;
   margin-bottom: 50px;
 
-  h2 {
+  &__heading {
     font-family: $primary-font;
     font-size: 18px;
     text-align: center;
@@ -246,7 +246,7 @@
     margin-bottom: 30px;
   }
 
-  img {
+  &__my-image {
     width: 200px;
     height: auto;
     border: 2px solid $secondary-color;
@@ -266,5 +266,10 @@
       font-size: 12px;
       margin-bottom: 10px;
     }
+  }
+
+  &__laptop-girl {
+    display: none;
+    width: 180px;
   }
 }

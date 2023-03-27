@@ -208,14 +208,14 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.about-me h2 {
+.about-me__heading {
   font-family: "Ubuntu", "sans-serif";
   font-size: 18px;
   text-align: center;
   padding: 10px;
   margin-bottom: 30px;
 }
-.about-me img {
+.about-me__my-image {
   width: 200px;
   height: auto;
   border: 2px solid #e3f6f5;
@@ -233,4 +233,8 @@
   font-family: "Roboto", "sans-serif";
   font-size: 12px;
   margin-bottom: 10px;
+}
+.about-me__laptop-girl {
+  display: none;
+  width: 180px;
 }
