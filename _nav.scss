@@ -1,0 +1,47 @@
+@use "./variables" as *;
+
+.top-nav {
+  .navbar {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    padding: 18px;
+
+    &__heading {
+      font-family: $secondary-font;
+      font-size: 16px;
+    }
+
+    &__image {
+      width: 50%;
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      font-family: $secondary-font;
+      display: none;
+
+      a {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 14px;
+      }
+
+      a:link,
+      a:visited {
+        text-decoration: none;
+      }
+
+      &--button {
+        background-color: $secondary-color;
+        border-radius: 5px;
+        font-size: 14px;
+        font-family: $secondary-font;
+        color: $primary-color;
+        text-align: center;
+        width: 100px;
+        padding: 5px;
+      }
+    }
+  }
+}
