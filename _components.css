@@ -1,0 +1,69 @@
+.intro {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.intro .intro-container {
+  background-color: #aeb6bf;
+  width: 80%;
+  height: auto;
+  padding: 20px;
+}
+.intro .intro-container__text {
+  font-family: "Roboto", "sans-serif";
+  background-color: inherit;
+}
+.intro .intro-container__heading {
+  font-family: "Ubuntu", "sans-serif";
+  margin-top: 20px;
+  background-color: inherit;
+}
+.intro .intro-container__link button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #e3f6f5;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.skills h2 {
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+.skills__text {
+  font-family: "Roboto", "sans-serif";
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  width: 300px;
+}
+.skills__icon-with-text {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  align-self: center;
+  margin-top: 20px;
+}
+.skills__icon-with-text img {
+  height: 45px;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+}
+.skills__icon-with-text p {
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 12px;
+  text-align: center;
+}
