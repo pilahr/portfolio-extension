@@ -57,7 +57,7 @@
 }
 .skills__text {
   font-family: "Roboto", "sans-serif";
-  font-size: 14px;
+  font-size: 12px;
   padding: 10px;
   text-align: center;
   display: flex;
@@ -99,11 +99,12 @@
   align-items: center;
 }
 .projects__cards .card {
-  padding: 10px;
   display: flex;
   flex-direction: column;
   width: 90%;
   height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .projects__cards .card__img-container {
   background-color: #aeb6bf;
@@ -129,13 +130,14 @@
 }
 .projects__cards .card h3 {
   font-family: "Roboto", "sans-serif";
-  font-size: 14px;
+  font-size: 12px;
   color: white;
   margin-top: 15px;
 }
 .projects__cards .card h4 {
   font-family: "Ubuntu", "sans-serif";
-  font-size: 20px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 .projects__cards .card p {
   font-family: "Roboto", "sans-serif";
