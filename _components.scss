@@ -28,12 +28,17 @@
       justify-content: center;
       background-color: $extra-color;
       text-decoration: none;
+      margin-top: 100px;
+      margin-bottom: 70px;
+
       button {
         padding: 10px;
         border-radius: 5px;
         border: 2px solid $secondary-color;
-        margin-top: 100px;
-        margin-bottom: 70px;
+      }
+
+      button:hover {
+        cursor: pointer;
       }
     }
 

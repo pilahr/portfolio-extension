@@ -26,13 +26,16 @@
   justify-content: center;
   background-color: #4a5867;
   text-decoration: none;
+  margin-top: 100px;
+  margin-bottom: 70px;
 }
 .intro .intro-container__link button {
   padding: 10px;
   border-radius: 5px;
   border: 2px solid #e3f6f5;
-  margin-top: 100px;
-  margin-bottom: 70px;
+}
+.intro .intro-container__link button:hover {
+  cursor: pointer;
 }
 .intro .intro-container img {
   width: 200px;
