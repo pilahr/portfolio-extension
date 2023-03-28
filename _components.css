@@ -4,7 +4,7 @@
   justify-content: center;
 }
 .intro .intro-container {
-  background-color: #aeb6bf;
+  background-color: #4a5867;
   width: 80%;
   height: auto;
   padding: 20px;
@@ -12,16 +12,18 @@
 .intro .intro-container__text {
   font-family: "Roboto", "sans-serif";
   background-color: inherit;
+  color: white;
 }
 .intro .intro-container__heading {
   font-family: "Ubuntu", "sans-serif";
   margin-top: 20px;
   background-color: inherit;
+  color: white;
 }
 .intro .intro-container__link {
   display: flex;
   justify-content: center;
-  background-color: #aeb6bf;
+  background-color: #4a5867;
   text-decoration: none;
 }
 .intro .intro-container__link button {
@@ -107,7 +109,7 @@
   margin-right: 20px;
 }
 .projects__cards .card__img-container {
-  background-color: #aeb6bf;
+  background-color: #4a5867;
   position: relative;
   height: auto;
   width: 100%;
@@ -167,7 +169,7 @@
 }
 
 .footer {
-  background-color: #aeb6bf;
+  background-color: #e3f6f5;
   font-family: "Roboto", "sans-serif";
   font-size: 14px;
   display: flex;
@@ -192,10 +194,10 @@
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  background-color: #aeb6bf;
+  background-color: #e3f6f5;
 }
 .footer img:hover {
-  background-color: #e3f6f5;
+  background-color: white;
 }
 .footer p {
   background-color: inherit;

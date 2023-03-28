@@ -15,11 +15,13 @@
     &__text {
       font-family: $secondary-font;
       background-color: inherit;
+      color: $hilighted-color;
     }
     &__heading {
       font-family: $primary-font;
       margin-top: 20px;
       background-color: inherit;
+      color: $hilighted-color;
     }
     &__link {
       display: flex;
@@ -192,7 +194,7 @@
 }
 
 .footer {
-  background-color: $extra-color;
+  background-color: $secondary-color;
   font-family: $secondary-font;
   font-size: 14px;
   display: flex;
@@ -219,11 +221,11 @@
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    background-color: $extra-color;
+    background-color: $secondary-color;
   }
 
   img:hover {
-    background-color: $secondary-color;
+    background-color: $hilighted-color;
   }
 
   p {
