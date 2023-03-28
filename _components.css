@@ -245,3 +245,60 @@
   display: none;
   width: 180px;
 }
+
+.experience {
+  width: 80%;
+  margin-bottom: 150px;
+  padding: 20px;
+}
+.experience__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experience__heading {
+  font-family: "Ubuntu", "sans-serif";
+  margin-bottom: 30px;
+  color: white;
+}
+.experience__collapsible {
+  background-color: #4a5867;
+  font-family: "Roboto", "sans-serif";
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-bottom: 20px;
+}
+.experience__content {
+  font-family: "Roboto", "sans-serif";
+  font-size: 12px;
+  background-color: #272643;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  display: none;
+}
+.experience__content p {
+  background-color: #e3f6f5;
+  color: #272643;
+  padding: 20px;
+}
+.experience__content ul {
+  display: flex;
+}
+.experience__content ul li {
+  padding: 10px;
+  background-color: #e3f6f5;
+  color: #272643;
+}
+.experience .active, .experience__collapsible:hover {
+  background-color: white;
+  color: #272643;
+  font-weight: bold;
+  cursor: pointer;
+}
