@@ -165,7 +165,7 @@
 }
 
 .footer {
-  background-color: #e3f6f5;
+  background-color: #aeb6bf;
   font-family: "Roboto", "sans-serif";
   font-size: 14px;
   display: flex;
@@ -179,7 +179,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  background-color: #e3f6f5;
+  background-color: inherit;
 }
 .footer a {
   border: 3px solid #272643;
@@ -190,13 +190,13 @@
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  background-color: #e3f6f5;
+  background-color: #aeb6bf;
 }
 .footer img:hover {
   background-color: #e3f6f5;
 }
 .footer p {
-  background-color: #e3f6f5;
+  background-color: inherit;
   color: #272643;
   margin-top: 20px;
 }
