@@ -204,6 +204,86 @@
                 <img class="about-me__laptop-girl" src="./images/girl-cartoon.png" alt="laptop-girl">
             </section>
 
+            <section class="experience">
+                <h2 class="experience__heading">Experience</h2>
+
+                <div class="experience__container">
+
+                    <button class="experience__collapsible">Trainee Software Developer @_Nology </button>
+                    <div class="experience__content">
+                        <p>Undertaking 12 weeks of full-time training for Software development. Focuses on key practices
+                            and methodologies of both front-end and back-end development including web fundamental,
+                            HTML, CSS, JavaScript, Java Programming, Agile and Testing, Databases and Server-side
+                            Programming.</p>
+                    </div>
+
+                    <button class="experience__collapsible">Team Leader @CAREUK</button>
+                    <div class="experience__content">
+                        <ul>
+                            <li>Led and supervised a team of carers to ensure high-quality care and support to residents
+                                in
+                                the
+                                nursing home.</li>
+                            <li>Regularly liaise with families, healthcare professionals and other stakeholders to
+                                ensure
+                                the
+                                well-being of residents.</li>
+                        </ul>
+                    </div>
+
+                    <button class="experience__collapsible">Registered Nurse @Bangkok Hospital Phitsanulok </button>
+                    <div class="experience__content">
+                        <ul>
+                            <li>Carried out assessments of patients and created care plans</li>
+                            <li>Provided care along with monitoring and administering medication</li>
+                            <li>Helped onboard new members of staff in the team</li>
+                        </ul>
+                    </div>
+
+                    <button class="experience__collapsible">Registered Nurse @Buddhdachinaraj Phitsanulok
+                        Hospital</button>
+                    <div class="experience__content">
+                        <ul>
+                            <li>As part of the Medicine department delivered care to patients pre and post operation
+                            </li>
+                            <li>Collected and analysed infection data for the ward on a monthly basis using Microsoft
+                                excel
+                            </li>
+                            <li>Helped train more junior members of staff and nursing students on how to deliver the
+                                most
+                                effective care</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </section>
+
+
+
+            <script>
+                var coll = document.getElementsByClassName("experience__collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                            content.style.display = "none";
+                        } else {
+                            content.style.display = "block";
+                        }
+                    });
+                }
+            </script>
+
             <!-- FOOTER -->
             <section>
                 <footer class="footer">
@@ -216,6 +296,8 @@
                     <p>piyapornlahr@gmail.com</p>
                 </footer>
             </section>
+
+
     </main>
 </body>
 
