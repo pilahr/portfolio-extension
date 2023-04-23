@@ -114,8 +114,8 @@
 .projects__cards .card__img-container {
   background-color: #4a5867;
   position: relative;
-  height: auto;
-  width: 100%;
+  height: 240px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -129,8 +129,8 @@
   background-color: #e3f6f5;
 }
 .projects__cards .card__img {
-  width: 80%;
-  height: auto;
+  width: 220px;
+  height: 200px;
   margin-top: 30px;
 }
 .projects__cards .card h3 {

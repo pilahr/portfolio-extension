@@ -6,7 +6,7 @@ const projects = [
       "This project I was tasked to create the music album by making a render cards to show the information on HTML page by using JavaScript",
     code: "https://github.com/pilahr/album-render-cards",
     preview: "https://pilahr.github.io/album-render-cards/",
-    image: "",
+    image: "./images/projects/music-album.jpeg",
   },
 
   {
@@ -16,7 +16,7 @@ const projects = [
       "This project I was tasked to create the Pokemon cards by making a render cards to show the information of each Pokemon on HTML page by using JavaScript",
     code: "https://github.com/pilahr/pokedom",
     preview: "https://pilahr.github.io/pokedom/",
-    image: "",
+    image: "./images/projects/pokemon-cards.png",
   },
 
   {
@@ -26,7 +26,7 @@ const projects = [
       "This project I created the calculator with HTML, SCSS and made it functions by implementing JavaScript",
     code: "https://github.com/pilahr/calculator",
     preview: "https://pilahr.github.io/calculator/",
-    image: "",
+    image: "./images/projects/calculator.png",
   },
 
   {
@@ -36,7 +36,7 @@ const projects = [
       "This project I created a classic Hangman Game by using HTML, SCSS, Javascript and Confetti NPM package",
     code: "https://github.com/pilahr/Hangman-Game",
     preview: "https://pilahr.github.io/Hangman-Game/",
-    image: "",
+    image: "./images/projects/hangman-game.png",
   },
 
   {
@@ -46,7 +46,7 @@ const projects = [
       "This project I created the Morse Code translator to convert English to Morse Code and Morse Code back to English. It was built with Test Driven Development before created the function of the application",
     code: "https://github.com/pilahr/morse-code-translator",
     preview: "https://pilahr.github.io/morse-code-translator/",
-    image: "",
+    image: "./images/projects/morse-code-translator.png",
   },
 ];
 

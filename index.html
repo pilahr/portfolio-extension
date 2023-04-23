@@ -90,7 +90,7 @@
             <h2 class="projects__text" id="project-heading">My Projects</h2>
             <div class="projects__cards">
 
-                <div class="card">
+                <!-- <div class="card">
                     <div class="card__img-container">
                         <img class="card__img" src="./images/project.svg" alt="project1">
                     </div>
@@ -172,7 +172,7 @@
                         <button class="card__button">Code &lt;/&gt;</button>
                         <button class="card__button">Preview &lt;/&gt;</button>
                     </div>
-                </div>
+                </div> -->
 
             </div>
 
@@ -258,24 +258,6 @@
                 </div>
             </section>
 
-
-            <!-- JavaScript for a collapsible bars -->
-            <script>
-                var coll = document.getElementsByClassName("experience__collapsible");
-                var i;
-
-                for (i = 0; i < coll.length; i++) {
-                    coll[i].addEventListener("click", function () {
-                        this.classList.toggle("active");
-                        var content = this.nextElementSibling;
-                        if (content.style.display === "block") {
-                            content.style.display = "none";
-                        } else {
-                            content.style.display = "block";
-                        }
-                    });
-                }
-            </script>
             <!-- FOOTER -->
             <section>
                 <footer class="footer">
@@ -291,6 +273,7 @@
 
 
     </main>
+    <script src="./script.js" type="module"></script>
 </body>
 
 </html>
