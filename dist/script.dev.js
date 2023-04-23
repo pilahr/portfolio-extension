@@ -13,7 +13,7 @@ var renderCard = function renderCard(projectObject) {
       code = projectObject.code,
       preview = projectObject.preview,
       image = projectObject.image;
-  return "<div class=\"card\">\n    <div class=\"card__img-container\">\n        <img class=\"card__img\" src=".concat(image, " />\n    </div>\n    <h3>").concat(skills.toUpperCase(), "</h3>\n    <h4>").concat(name, "</h4>\n    <p>").concat(message, "</p>\n    <div class=\"card__button\">\n        <a href=").concat(code, "><button class=\"card__button\">Code &lt;/&gt;</button></a>\n        <a href=").concat(preview, "><button class=\"card__button\">Preview &lt;/&gt;</button></a>\n    </div>\n    </div>");
+  return "<div class=\"card\">\n    <div class=\"card__img-container\">\n        <img class=\"card__img\" src=".concat(image, " />\n    </div>\n    <div class=\"card__text-container\">\n      <h3>").concat(skills.toUpperCase(), "</h3>\n      <h4>").concat(name, "</h4>\n      <p>").concat(message, "</p>\n    </div>\n    \n    <div class=\"card__button\">\n        <a href=").concat(code, "><button class=\"card__button\">Code &lt;/&gt;</button></a>\n        <a href=").concat(preview, "><button class=\"card__button\">Preview &lt;/&gt;</button></a>\n    </div>\n    </div>");
 };
 
 _projects["default"].forEach(function (project) {

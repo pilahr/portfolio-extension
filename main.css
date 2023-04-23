@@ -107,16 +107,14 @@
 .projects__cards .card {
   display: flex;
   flex-direction: column;
-  width: 90%;
   height: auto;
-  margin-left: 20px;
-  margin-right: 20px;
+  align-items: center;
 }
 .projects__cards .card__img-container {
   background-color: #4a5867;
   position: relative;
   height: 240px;
-  width: 280px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -130,22 +128,23 @@
   background-color: #e3f6f5;
 }
 .projects__cards .card__img {
-  width: 220px;
+  width: 90%;
   height: 200px;
   margin-top: 30px;
 }
-.projects__cards .card h3 {
+.projects__cards .card__text-container h3 {
   font-family: "Roboto", "sans-serif";
   font-size: 12px;
   color: white;
   margin-top: 15px;
 }
-.projects__cards .card h4 {
+.projects__cards .card__text-container h4 {
   font-family: "Ubuntu", "sans-serif";
   font-size: 16px;
   margin-bottom: 10px;
 }
-.projects__cards .card p {
+.projects__cards .card__text-container p {
+  width: 320px;
   font-family: "Roboto", "sans-serif";
   font-size: 12px;
 }
@@ -374,21 +373,17 @@
   .top-nav .navbar__image {
     display: none;
   }
-
   .intro .intro-container__heading {
     text-align: center;
   }
-
   .skills__icon-with-text {
     display: flex;
     justify-content: center;
   }
-
   .projects__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
   .about-me {
     margin-left: 100px;
     margin-right: 100px;
@@ -409,7 +404,6 @@
     grid-area: text;
     width: 50%;
   }
-
   .footer {
     display: flex;
     flex-direction: row-reverse;
@@ -443,7 +437,6 @@
     display: unset;
     margin: 0;
   }
-
   .skills h2 {
     font-size: 22px;
   }
@@ -453,9 +446,12 @@
   .skills__icon-with-text p {
     font-size: 16px;
   }
-
   .projects__text {
     font-size: 22px;
+  }
+  .projects__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
   .projects__cards .card h3 {
     font-size: 16px;
@@ -466,7 +462,6 @@
   .projects__cards .card p {
     font-size: 16px;
   }
-
   .about-me {
     margin-bottom: 100px;
     display: grid;
@@ -494,11 +489,10 @@
   .about-me__laptop-girl {
     display: unset;
   }
-
   .experience__collapsible {
     font-size: 16px;
   }
   .experience__content {
     font-size: 16px;
   }
-}eMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

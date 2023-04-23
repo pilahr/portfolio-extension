@@ -9,9 +9,12 @@ const renderCard = (projectObject) => {
     <div class="card__img-container">
         <img class="card__img" src=${image} />
     </div>
-    <h3>${skills.toUpperCase()}</h3>
-    <h4>${name}</h4>
-    <p>${message}</p>
+    <div class="card__text-container">
+      <h3>${skills.toUpperCase()}</h3>
+      <h4>${name}</h4>
+      <p>${message}</p>
+    </div>
+    
     <div class="card__button">
         <a href=${code}><button class="card__button">Code &lt;/&gt;</button></a>
         <a href=${preview}><button class="card__button">Preview &lt;/&gt;</button></a>

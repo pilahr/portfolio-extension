@@ -106,16 +106,14 @@
 .projects__cards .card {
   display: flex;
   flex-direction: column;
-  width: 90%;
   height: auto;
-  margin-left: 20px;
-  margin-right: 20px;
+  align-items: center;
 }
 .projects__cards .card__img-container {
   background-color: #4a5867;
   position: relative;
   height: 240px;
-  width: 280px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -129,22 +127,23 @@
   background-color: #e3f6f5;
 }
 .projects__cards .card__img {
-  width: 220px;
+  width: 90%;
   height: 200px;
   margin-top: 30px;
 }
-.projects__cards .card h3 {
+.projects__cards .card__text-container h3 {
   font-family: "Roboto", "sans-serif";
   font-size: 12px;
   color: white;
   margin-top: 15px;
 }
-.projects__cards .card h4 {
+.projects__cards .card__text-container h4 {
   font-family: "Ubuntu", "sans-serif";
   font-size: 16px;
   margin-bottom: 10px;
 }
-.projects__cards .card p {
+.projects__cards .card__text-container p {
+  width: 320px;
   font-family: "Roboto", "sans-serif";
   font-size: 12px;
 }
