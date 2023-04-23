@@ -104,10 +104,12 @@
 
       &__text {
         grid-area: text;
+        font-size: 20px;
       }
 
       &__heading {
         grid-area: heading;
+        font-size: 26px;
       }
 
       &__link {
@@ -115,6 +117,7 @@
 
         button {
           margin: 0;
+          font-size: 20px;
         }
       }
 
@@ -126,6 +129,42 @@
     }
   }
 
+  .skills {
+    h2 {
+      font-size: 22px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__icon-with-text {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .projects {
+    &__text {
+      font-size: 22px;
+    }
+
+    &__cards {
+      .card {
+        h3 {
+          font-size: 16px;
+        }
+        h4 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
   .about-me {
     margin-bottom: 100px;
     display: grid;
@@ -136,6 +175,7 @@
     &__heading {
       grid-area: heading;
       margin-left: 0;
+      font-size: 22px;
     }
 
     &__my-image {
@@ -146,6 +186,10 @@
       grid-area: text;
       margin: 0;
       width: 80%;
+
+      p {
+        font-size: 16px;
+      }
     }
     &__my-image {
       display: none;
@@ -153,6 +197,16 @@
 
     &__laptop-girl {
       display: unset;
+    }
+  }
+
+  .experience {
+    &__collapsible {
+      font-size: 16px;
+    }
+
+    &__content {
+      font-size: 16px;
     }
   }
 }

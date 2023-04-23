@@ -374,17 +374,21 @@
   .top-nav .navbar__image {
     display: none;
   }
+
   .intro .intro-container__heading {
     text-align: center;
   }
+
   .skills__icon-with-text {
     display: flex;
     justify-content: center;
   }
+
   .projects__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .about-me {
     margin-left: 100px;
     margin-right: 100px;
@@ -405,6 +409,7 @@
     grid-area: text;
     width: 50%;
   }
+
   .footer {
     display: flex;
     flex-direction: row-reverse;
@@ -420,21 +425,48 @@
   }
   .intro .intro-container__text {
     grid-area: text;
+    font-size: 20px;
   }
   .intro .intro-container__heading {
     grid-area: heading;
+    font-size: 26px;
   }
   .intro .intro-container__link {
     grid-area: button;
   }
   .intro .intro-container__link button {
     margin: 0;
+    font-size: 20px;
   }
   .intro .intro-container img {
     grid-template-columns: image;
     display: unset;
     margin: 0;
   }
+
+  .skills h2 {
+    font-size: 22px;
+  }
+  .skills__text {
+    font-size: 16px;
+  }
+  .skills__icon-with-text p {
+    font-size: 16px;
+  }
+
+  .projects__text {
+    font-size: 22px;
+  }
+  .projects__cards .card h3 {
+    font-size: 16px;
+  }
+  .projects__cards .card h4 {
+    font-size: 18px;
+  }
+  .projects__cards .card p {
+    font-size: 16px;
+  }
+
   .about-me {
     margin-bottom: 100px;
     display: grid;
@@ -443,6 +475,7 @@
   .about-me__heading {
     grid-area: heading;
     margin-left: 0;
+    font-size: 22px;
   }
   .about-me__my-image {
     grid-area: image;
@@ -452,10 +485,20 @@
     margin: 0;
     width: 80%;
   }
+  .about-me__text p {
+    font-size: 16px;
+  }
   .about-me__my-image {
     display: none;
   }
   .about-me__laptop-girl {
     display: unset;
   }
-}/*# sourceMappingURL=main.css.map */
+
+  .experience__collapsible {
+    font-size: 16px;
+  }
+  .experience__content {
+    font-size: 16px;
+  }
+}eMappingURL=main.css.map */
