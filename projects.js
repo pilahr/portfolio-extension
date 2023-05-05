@@ -48,6 +48,16 @@ const projects = [
     preview: "https://pilahr.github.io/morse-code-translator/",
     image: "./images/projects/morse-code-translator.png",
   },
+
+  {
+    name: "Punk API",
+    skills: "HTML SCSS JavaScript React",
+    message:
+      "This project was built to demonstrate my skills at interacting with an external API. It is built using functional React, utilising hooks such as useState and useEffect",
+    code: "https://github.com/pilahr/punk-api",
+    preview: "https://pilahr.github.io/punk-api/",
+    image: "./images/projects/punk-api.png",
+  },
 ];
 
 export default projects;
