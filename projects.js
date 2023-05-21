@@ -61,7 +61,7 @@ const projects = [
 
   {
     name: "Client project",
-    skills: "HTML SCSS JavaScript React Git Github Pair Programmint AGILE",
+    skills: "JavaScript React Git Github AGILE",
     message:
       "A real world Client Project built over the course. This project involved using an AGILE workflow with the group of 5 people which one of us was a trainer who took a project manager role. Pair programming was used throughout the development also",
     code: "https://github.com/nology-tech/Tahiti-Client-Project",
@@ -76,7 +76,7 @@ const projects = [
       "I created this game using Java to create the original Hangman Game to play on the terminal. ",
     code: "https://github.com/pilahr/java-hangman-game",
     preview: "#",
-    image: "./images/projects/java-hangman-game",
+    image: "./images/projects/java-hangman-game.png",
   },
 ];
 
