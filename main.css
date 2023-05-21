@@ -9,6 +9,8 @@
   width: 80%;
   height: auto;
   padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px lightblue;
 }
 .intro .intro-container__text {
   font-family: "Roboto", "sans-serif";
@@ -41,6 +43,7 @@
   width: 200px;
   height: auto;
   border: 2px solid #e3f6f5;
+  border-radius: 3px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -113,13 +116,17 @@
 .projects__cards .card__img-container {
   background-color: #4a5867;
   position: relative;
-  height: 240px;
+  height: 300px;
   width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   margin-top: 20px;
+  border-radius: 15px;
+  border-right: 1px solid hotpink;
+  border-top: 1px solid hotpink;
+  box-shadow: 2px -2px 5px hotpink;
 }
 .projects__cards .card__img-container--blue-bg {
   background-color: #d6eaf8;
@@ -128,9 +135,11 @@
   background-color: #e3f6f5;
 }
 .projects__cards .card__img {
-  width: 90%;
-  height: 200px;
+  width: 95%;
+  height: 280px;
   margin-top: 30px;
+  margin-bottom: 5px;
+  border-radius: 15px;
 }
 .projects__cards .card__text-container h3 {
   font-family: "Roboto", "sans-serif";
@@ -165,6 +174,10 @@
   padding: 5px;
   box-shadow: 1px 1px 2px;
   color: #272643;
+  box-shadow: 2px 2px 5px white;
+}
+.projects__cards .card__button button:active {
+  transform: translateY(3px);
 }
 .projects__cards .card__button button:hover {
   background-color: white;
@@ -410,6 +423,7 @@
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1024px) {

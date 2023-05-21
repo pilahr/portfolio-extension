@@ -10,6 +10,8 @@
     width: 80%;
     height: auto;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px lightblue;
 
     &__text {
       font-family: $secondary-font;
@@ -45,6 +47,7 @@
       width: 200px;
       height: auto;
       border: 2px solid $secondary-color;
+      border-radius: 3px;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 50px;
@@ -126,13 +129,18 @@
       &__img-container {
         background-color: $extra-color;
         position: relative;
-        height: 240px;
+        height: 300px;
         width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         margin-top: 20px;
+        border-radius: 15px;
+        border-right: 1px solid hotpink;
+        border-top: 1px solid hotpink;
+        box-shadow: 2px -2px 5px hotpink;
+     
 
         &--blue-bg {
           background-color: #d6eaf8;
@@ -144,9 +152,11 @@
       }
 
       &__img {
-        width: 90%;
-        height: 200px;
+        width: 95%;
+        height: 280px;
         margin-top: 30px;
+        margin-bottom: 5px;
+        border-radius: 15px;
       }
 
       &__text-container {
@@ -187,6 +197,11 @@
           padding: 5px;
           box-shadow: 1px 1px 2px;
           color: $primary-color;
+          box-shadow: 2px 2px 5px white;
+        }
+
+        button:active {
+          transform: translateY(3px);
         }
 
         button:hover {
