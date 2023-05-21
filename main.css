@@ -264,6 +264,7 @@
   width: 80%;
   margin-bottom: 150px;
   padding: 20px;
+  margin-left: 20px;
 }
 .experience__container {
   display: flex;
@@ -428,6 +429,9 @@
     padding-left: 50px;
     padding-right: 50px;
     font-size: 20px;
+  }
+  .experience {
+    margin-left: 100px;
   }
 }
 @media screen and (min-width: 1024px) {
