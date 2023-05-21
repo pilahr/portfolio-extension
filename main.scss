@@ -14,9 +14,11 @@
 
 @media screen and (min-width: 768px) {
   .top-nav {
+    padding-top: 10px;
     .navbar {
       display: grid;
       grid-template-columns: 2fr 2fr;
+
       &__list {
         display: unset;
       }
@@ -95,6 +97,12 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .top-nav {
+    .navbar {
+      display: grid;
+      grid-template-columns: 3.8fr 2fr;
+    }
+  }
   .intro {
     .intro-container {
       display: grid;
