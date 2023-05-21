@@ -140,7 +140,6 @@
         border-right: 1px solid hotpink;
         border-top: 1px solid hotpink;
         box-shadow: 2px -2px 5px hotpink;
-     
 
         &--blue-bg {
           background-color: #d6eaf8;
@@ -175,8 +174,10 @@
 
         p {
           width: 320px;
+          height: 80px;
           font-family: $secondary-font;
           font-size: 12px;
+          overflow: scroll;
         }
       }
 
@@ -266,7 +267,6 @@
     font-family: $primary-font;
     font-size: 18px;
     text-align: center;
-    padding: 10px;
     margin-bottom: 30px;
   }
 

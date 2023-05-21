@@ -154,8 +154,10 @@
 }
 .projects__cards .card__text-container p {
   width: 320px;
+  height: 80px;
   font-family: "Roboto", "sans-serif";
   font-size: 12px;
+  overflow: scroll;
 }
 .projects__cards .card__button {
   font-family: "Roboto", "sans-serif";
@@ -232,7 +234,6 @@
   font-family: "Ubuntu", "sans-serif";
   font-size: 18px;
   text-align: center;
-  padding: 10px;
   margin-bottom: 30px;
 }
 .about-me__my-image {
