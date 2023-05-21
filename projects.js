@@ -68,6 +68,16 @@ const projects = [
     preview: "https://tahiti-client-project.firebaseapp.com/",
     image: "./images/projects/client-project.png",
   },
+
+  {
+    name: "Java Hangman Game",
+    skills: "Java",
+    message:
+      "I created this game using Java to create the original Hangman Game to play on the terminal. ",
+    code: "https://github.com/pilahr/java-hangman-game",
+    preview: "#",
+    image: "./images/projects/java-hangman-game",
+  },
 ];
 
 export default projects;
