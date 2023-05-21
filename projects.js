@@ -58,6 +58,16 @@ const projects = [
     preview: "https://pilahr.github.io/punk-api/",
     image: "./images/projects/punk-api.png",
   },
+
+  {
+    name: "Client project",
+    skills: "HTML SCSS JavaScript React Git Github Pair Programmint AGILE",
+    message:
+      "A real world Client Project built over the course. This project involved using an AGILE workflow with the group of 5 people which one of us was a trainer who took a project manager role. Pair programming was used throughout the development also",
+    code: "https://github.com/nology-tech/Tahiti-Client-Project",
+    preview: "https://tahiti-client-project.firebaseapp.com/",
+    image: "./images/projects/client-project.png",
+  },
 ];
 
 export default projects;
