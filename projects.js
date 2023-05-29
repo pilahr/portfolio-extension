@@ -1,5 +1,14 @@
 const projects = [
   {
+    name: "This site",
+    skills: "HTML SCSS JavaScript",
+    message:
+      "This site was my first project to show my understanding in creating website by using HTML and CSS. I also added JavaScript to rendering the projects I've done later on.",
+    code: "https://github.com/pilahr/portfolio-extension",
+    preview: "https://pilahr.github.io/portfolio-extension/",
+    image: "./images/projects/portfolio.png",
+  },
+  {
     name: "Album Render Cards",
     skills: "HTML SCSS JavaScript",
     message:
@@ -48,6 +57,15 @@ const projects = [
     preview: "https://pilahr.github.io/morse-code-translator/",
     image: "./images/projects/morse-code-translator.png",
   },
+  {
+    name: "Ticket Tracker",
+    skills: "React",
+    message:
+      "This project was created to demonstrate my understanding in React by creating the site, mapped the name through and added a function to increment/ decrement the ticket.",
+    code: "https://github.com/pilahr/ticket-tracker",
+    preview: "#",
+    image: "./images/projects/",
+  },
 
   {
     name: "Punk API",
@@ -73,10 +91,20 @@ const projects = [
     name: "Java Hangman Game",
     skills: "Java",
     message:
-      "I created this game using Java to create the original Hangman Game to play on the terminal. ",
+      "I created this game using Java to create the classic Hangman Game to play on the terminal. ",
     code: "https://github.com/pilahr/java-hangman-game",
     preview: "#",
     image: "./images/projects/java-hangman-game.png",
+  },
+
+  {
+    name: "Java Snap Card Game",
+    skills: "Java",
+    message:
+      "I created this game to demonstrate my understanding in Java programming language.",
+    code: "https://github.com/pilahr/java-hangman-game",
+    preview: "#",
+    image: "./images/projects/java-snap-card-game.png",
   },
 ];
 
