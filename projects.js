@@ -22,7 +22,7 @@ const projects = [
     name: "Pokedom",
     skills: "HTML SCSS JavaScript",
     message:
-      "This project I was tasked to create the Pokemon cards by making a render cards to show the information of each Pokemon on HTML page by using JavaScript",
+      "This task was a part of a tech test when I was on training with _nology. I was tasked to create the Pokemon cards by making a render cards to show the information of each Pokemon on HTML page by using JavaScript",
     code: "https://github.com/pilahr/pokedom",
     preview: "https://pilahr.github.io/pokedom/",
     image: "./images/projects/pokemon-cards.png",
@@ -52,7 +52,7 @@ const projects = [
     name: "Morse code translator",
     skills: "HTML SCSS JavaScript",
     message:
-      "This project I created the Morse Code translator to convert English to Morse Code and Morse Code back to English. It was built with Test Driven Development before created the function of the application",
+      "This task was a tech test to create the Morse Code translator to convert English to Morse Code and Morse Code back to English. It was built with Test Driven Development before created the function of the application",
     code: "https://github.com/pilahr/morse-code-translator",
     preview: "https://pilahr.github.io/morse-code-translator/",
     image: "./images/projects/morse-code-translator.png",
@@ -63,8 +63,8 @@ const projects = [
     message:
       "This project was created to demonstrate my understanding in React by creating the site, mapped the name through and added a function to increment/ decrement the ticket.",
     code: "https://github.com/pilahr/ticket-tracker",
-    preview: "#",
-    image: "./images/projects/",
+    preview: "https://pilahr.github.io/ticket-tracker/",
+    image: "./images/projects/ticket-tracker.png",
   },
 
   {
