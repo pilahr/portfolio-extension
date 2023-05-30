@@ -49,6 +49,8 @@
     &__icon-with-text {
       display: flex;
       justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
     }
   }
 
@@ -97,7 +99,6 @@
 
   .experience {
     margin-left: 100px;
-
   }
 }
 
@@ -153,6 +154,7 @@
     }
 
     &__icon-with-text {
+      gap: 20px;
       p {
         font-size: 16px;
       }

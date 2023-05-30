@@ -397,6 +397,8 @@
   .skills__icon-with-text {
     display: flex;
     justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
   }
   .projects__cards {
     display: grid;
@@ -468,6 +470,9 @@
   }
   .skills__text {
     font-size: 16px;
+  }
+  .skills__icon-with-text {
+    gap: 20px;
   }
   .skills__icon-with-text p {
     font-size: 16px;
