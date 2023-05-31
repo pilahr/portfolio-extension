@@ -102,7 +102,7 @@ const projects = [
     skills: "Java",
     message:
       "I created this game to demonstrate my understanding in Java programming language.",
-    code: "https://github.com/pilahr/java-hangman-game",
+    code: "https://github.com/pilahr/java-snap-card-game",
     preview: "#",
     image: "./images/projects/java-snap-card-game.png",
   },
