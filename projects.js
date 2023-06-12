@@ -106,6 +106,16 @@ const projects = [
     preview: "#",
     image: "./images/projects/java-snap-card-game.png",
   },
+
+  {
+    name: "Recipes (Full Stack Project)",
+    skills: "REACT, JAVA, Spring boot",
+    message:
+      "My first full stack project showing my favourite recipes. I created REST API data, fetched and used it on the website. This project uses REACT in the front-end and uses Java, Spring boot on the back-end. The project is still under the development",
+    code: "https://github.com/pilahr/recipes",
+    preview: "#",
+    image: "./images/projects/recipes.png",
+  },
 ];
 
 export default projects;
