@@ -116,6 +116,15 @@ const projects = [
     preview: "#",
     image: "./images/projects/recipes.png",
   },
+    {
+    name: "Geolocation",
+    skills: "REACT, Javascript, Firebase",
+    message:
+      "Front-end project built in REACT with log in authentication. MockUser: tellmetheweather1@gmail.com Password: weather1234 The project display the weather regarding user's location and this project turns into a litter helper for the user in the morning with a to do list for the day",
+    code: "https://github.com/pilahr/react-geolocation",
+    preview: "https://react-geolocation-project-01.web.app/",
+    image: "./images/projects/geolocation.png",
+  },
 ];
 
 export default projects;
