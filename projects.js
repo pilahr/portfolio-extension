@@ -144,10 +144,19 @@ const projects = [
     image: "./images/projects/parking-lot.png",
   },
   {
+    name: "Stocks Crypto Tracker",
+    skills: "REACT, Javascript",
+    message:
+      "Frontend desktop website for stocks and crypto currencies tracking. The search function and the tab showing different companies data are not yet working due to limited API call",
+    code: "https://github.com/pilahr/stocks-crypto-tracker",
+    preview: "https://stocks-crypto-tracker.web.app",
+    image: "./images/projects/stock-crypto-tracker.png",
+  },
+  {
     name: "Expense Manager",
     skills: "REACT, Javascript, Firebase, nodeJs, Mongodb, Vercel",
     message:
-      "Full Stack project mobile phone application which allows me to log in and add a daily expenses MockUser: piyablog11@gmail.com Password: 123456  [Backend Code](https://github.com/pilahr/my-journey-new-backend](https://github.com/pilahr/expense-manager-backend)",
+      "Full Stack project mobile phone application which allows me to log in and add a daily expenses MockUser: piyablog11@gmail.com Password: 123456  Backend Code: https://github.com/pilahr/my-journey-new-backend](https://github.com/pilahr/expense-manager-backend",
     code: "https://github.com/pilahr/expense-manager-frontend",
     preview: "https://expense-manager-frontend-e1ae8.web.app",
     image: "./images/projects/expense-manager.jpeg",
