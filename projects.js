@@ -131,8 +131,26 @@ const projects = [
     message:
       "Full Stack project Holiday Itinerary application which allows me to share photos with close friends/ family who has a log in access while I am on holiday and let them know what I am up to. MockUser: piyablog11@gmail.com Password: blog1234 The project was built in responsive design. Front-end created in REACT with Firebase Log in authentication and hosting through gitHub action. Back-end and URL endpoints for API created with nodeJs framework, connected to non-relational database (MongoDb) and hosted on Vercel. The user can be able to view, upload, edit and delete the holiday itinerary on the application. BACKEND CODE: https://github.com/pilahr/my-journey-new-backend",
     code: "https://github.https://github.com/pilahr/my-journey/pilahr/react-geolocation",
-    preview: "https://my-journey-20eb0.web.app/",
+    preview: "https://my-journey-20eb0.web.app",
     image: "./images/projects/my-journey.png",
+  },
+  {
+    name: "Parking Lot",
+    skills: "Java",
+    message:
+      "Parking lot management built in JAVA. It can hold different vehicles, can tell if the parking lot is empty or full and the number of spots that are available",
+    code: "https://github.com/pilahr/java-parking-lot",
+    preview: "#",
+    image: "./images/projects/parking-lot.png",
+  },
+  {
+    name: "Expense Manager",
+    skills: "REACT, Javascript, Firebase, nodeJs, Mongodb, Vercel",
+    message:
+      "Full Stack project mobile phone application which allows me to log in and add a daily expenses MockUser: piyablog11@gmail.com Password: 123456  [Backend Code](https://github.com/pilahr/my-journey-new-backend](https://github.com/pilahr/expense-manager-backend)",
+    code: "https://github.com/pilahr/expense-manager-frontend",
+    preview: "https://expense-manager-frontend-e1ae8.web.app",
+    image: "./images/projects/expense-manager.jpeg",
   },
   
 ];
